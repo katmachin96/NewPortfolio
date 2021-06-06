@@ -66,3 +66,30 @@
   height: 100px;
   margin-right: 500px;
 }
+
+/* Contact me section */
+.contact-form-wrapper {
+  background-color: var(--black);
+}
+.contact-form-text h3,
+.contact-form-text p {
+  color: white;
+}
+#form input,
+#form textarea {
+  border: none;
+  background-color: rgba(196, 196, 196, 0.34);
+  color: #979797;
+  padding: 2%;
+}
+#form input {
+  min-height: 55px;
+}
+#body {
+  min-height: 260px;
+}
+#submit-btn {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
