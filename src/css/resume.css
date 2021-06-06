@@ -26,6 +26,11 @@ p {
   background-color: var(--blue);
 }
 
+/* Metadata section */
+.metadata-section a {
+  color: inherit;
+}
+
 /* Education section */
 .education-entry p:first-child {
   color: white;
@@ -44,8 +49,6 @@ p {
 .skills-entry,
 .tools-entry {
   flex: 1 1 0px;
-  /* width: 242px; */
-  /* padding: 0% 10% 0% 0%; */
 }
 .skills-entry p:first-child,
 .tools-entry p:first-child {
