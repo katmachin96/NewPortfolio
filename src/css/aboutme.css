@@ -1,0 +1,68 @@
+/* Hero stuff */
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--black);
+  padding: 5%;
+}
+.left-section {
+  width: 40%;
+  padding-right: 5%;
+}
+.left-section > h1 {
+  margin-bottom: 7%;
+}
+.left-section > h1,
+.left-section > p {
+  color: #fffefe;
+}
+.right-section {
+  width: 60%;
+}
+.inner-img-container {
+  background-image: url("https://picsum.photos/200/300");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+/* Skills section */
+.skills-section {
+  min-height: 85vh;
+}
+.yellow-section {
+  background-color: var(--yellow);
+}
+.yellow-section > p,
+.cyan-section > p {
+  font-weight: normal;
+}
+.cyan-section {
+  background-color: var(--cyan);
+  padding: 5%;
+}
+.pink-section {
+  background-color: var(--pink);
+  padding: 5%;
+}
+.pink-section > h4,
+.pink-section > p {
+  color: var(--grey);
+}
+.blue-section {
+  background-color: var(--blue);
+  padding: 5%;
+}
+.blue-section > h4,
+.blue-section > p {
+  color: var(--yellow);
+}
+
+/* Company logo banner section */
+.company-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 500px;
+}

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import ProjectCard from "./components/ProjectCard";
-import { overviews } from "./data/projectOverviews";
-import "./css/landing.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ProjectCard from "../components/ProjectCard";
+import { overviews } from "../data/projectOverviews";
+import "../css/landing.css";
 
 export default class Landing extends Component {
   render() {

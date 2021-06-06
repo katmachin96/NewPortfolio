@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  /* TODO: Might need to rethink this especially with the
+  fixed-top class for the header */
+  overflow-x: hidden;
 }
 
 * {
