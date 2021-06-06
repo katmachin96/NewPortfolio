@@ -1,0 +1,29 @@
+.hero-wrapper {
+  height: 100vh;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5%;
+}
+
+/* Hero stuff */
+.hero-wrapper > h1,
+h3 {
+  color: white;
+}
+.hero-wrapper > h1 > span {
+  color: var(--yellow);
+}
+
+/* Project wrapper stuff */
+.section-header {
+  padding: 2% 5%;
+  padding-bottom: 0;
+}
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2% 5%;
+}

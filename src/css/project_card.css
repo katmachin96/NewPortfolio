@@ -1,0 +1,22 @@
+.project-card-wrapper {
+  width: 49%;
+  box-shadow: 0px 4px 30px rgba(154, 151, 151, 0.25);
+  margin-bottom: 2%;
+}
+.project-card-wrapper > img {
+  max-height: 350px;
+  width: 100%;
+}
+.project-header-section {
+  padding: 5%;
+}
+.card-text-section {
+  flex-grow: 1;
+}
+
+.top-section > p {
+  color: #50535f;
+}
+.bottom-section > span {
+  color: #747988;
+}
