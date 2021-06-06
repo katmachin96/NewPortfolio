@@ -1,0 +1,54 @@
+.resume-wrapper {
+  background-color: var(--black);
+}
+h2,
+h3,
+h4,
+p {
+  color: #c1c5d3;
+}
+
+/* General classes for the page */
+.section-marker {
+  width: 8px;
+  height: 20px;
+}
+.yellow-div {
+  background-color: var(--yellow);
+}
+.pink-div {
+  background-color: var(--pink);
+}
+.cyan-div {
+  background-color: var(--cyan);
+}
+.blue-div {
+  background-color: var(--blue);
+}
+
+/* Education section */
+.education-entry p:first-child {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Experience section */
+.experience-entry p:first-child {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Skills and tools section */
+.skills-entry,
+.tools-entry {
+  flex: 1 1 0px;
+  /* width: 242px; */
+  /* padding: 0% 10% 0% 0%; */
+}
+.skills-entry p:first-child,
+.tools-entry p:first-child {
+  color: white;
+  font-weight: 600;
+}
