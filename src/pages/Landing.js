@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
 import { overviews } from "../data/projectOverviews";
+import { Row, Col } from "react-bootstrap";
 import "../css/landing.css";
 
 export default class Landing extends Component {
@@ -17,7 +18,7 @@ export default class Landing extends Component {
           </h3>
         </div>
         <div className="project-section-wrapper">
-          <div className="section-header d-flex flex-row justify-content-between">
+          {/* <div className="section-header d-flex flex-row justify-content-between">
             <div className="left-section">
               <h4 className="bold-text">Projects</h4>
             </div>
@@ -36,12 +37,14 @@ export default class Landing extends Component {
                 <p className="light-grey-text">All</p>
               </div>
             </div>
-          </div>
-          <div className="project-grid w-100">
+          </div> */}
+          <Row className="project-grid">
             {overviews.map((projectOverview) => (
-              <ProjectCard data={projectOverview} />
+              <Col md={6} sm={12}>
+                <ProjectCard data={projectOverview} />
+              </Col>
             ))}
-          </div>
+          </Row>
         </div>
       </div>
     );

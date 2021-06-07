@@ -26,7 +26,7 @@ export default function AppRouter() {
             <NoMatch />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

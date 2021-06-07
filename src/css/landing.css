@@ -22,8 +22,5 @@ h3 {
   padding-bottom: 0;
 }
 .project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 2% 5%;
 }
