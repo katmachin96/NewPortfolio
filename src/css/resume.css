@@ -1,10 +1,10 @@
 .resume-wrapper {
   background-color: var(--black);
 }
-h2,
-h3,
-h4,
-p {
+.resume-wrapper h2,
+.resume-wrapper h3,
+.resume-wrapper h4,
+.resume-wrapper p {
   color: #c1c5d3;
 }
 
@@ -29,6 +29,10 @@ p {
 /* Metadata section */
 .metadata-section a {
   color: inherit;
+}
+.metadata-section a:hover,
+.metadata-section a:active {
+  color: var(--yellow);
 }
 
 /* Education section */

@@ -39,7 +39,7 @@ export default class AboutMe extends Component {
 
   render() {
     return (
-      <div>
+      <div className="about-wrapper">
         <Row className="hero-wrapper">
           <Col md={4} className="left-section d-flex flex-column">
             <h1>Hello,</h1>

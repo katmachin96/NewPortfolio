@@ -1,4 +1,4 @@
-.hero-wrapper {
+.landing-hero-wrapper {
   height: 100vh;
   background-color: var(--black);
   display: flex;
@@ -8,11 +8,11 @@
 }
 
 /* Hero stuff */
-.hero-wrapper > h1,
+.landing-hero-wrapper > h1,
 h3 {
   color: white;
 }
-.hero-wrapper > h1 > span {
+.landing-hero-wrapper > h1 > span {
   color: var(--yellow);
 }
 

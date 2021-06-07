@@ -9,9 +9,15 @@ export default class Header extends Component {
           <h2>Kat Machin</h2>
         </div>
         <div className="right-section d-flex flex-row">
-          <h3 className="px-2">WORK</h3>
-          <h3 className="px-2">ABOUT ME</h3>
-          <h3>RESUME</h3>
+          <a className="mx-5" href="/">
+            WORK
+          </a>
+          <a className="mx-5" href="/about">
+            ABOUT ME
+          </a>
+          <a className="mx-5" href="/resume">
+            RESUME
+          </a>
         </div>
       </div>
     );

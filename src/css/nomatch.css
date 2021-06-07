@@ -1,0 +1,13 @@
+.no-match-wrapper {
+  background-color: var(--black);
+}
+.no-match-wrapper h1,
+.no-match-wrapper p {
+  color: var(--grey);
+}
+.no-match-wrapper a {
+  color: inherit;
+}
+.no-match-wrapper a:hover {
+  color: var(--yellow);
+}

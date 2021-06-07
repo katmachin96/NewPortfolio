@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import { overviews } from "../data/projectOverviews";
 import "../css/landing.css";
@@ -9,8 +7,7 @@ export default class Landing extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <div className="hero-wrapper">
+        <div className="landing-hero-wrapper">
           <h1>
             User Interface <span>&</span>&nbsp;Experience designer
           </h1>
@@ -46,7 +43,6 @@ export default class Landing extends Component {
             ))}
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

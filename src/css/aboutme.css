@@ -17,7 +17,7 @@
 .left-section > p {
   color: #fffefe;
 }
-.right-section {
+.about-wrapper .right-section {
   width: 60%;
 }
 .inner-img-container {
@@ -29,7 +29,7 @@
 }
 
 /* Skills section */
-.skills-section {
+.about-wrapper .skills-section {
   min-height: 85vh;
 }
 .yellow-section {

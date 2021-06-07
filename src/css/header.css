@@ -1,6 +1,18 @@
 .header-wrapper {
+  background-color: var(--black);
   padding: 2% 5%;
+  height: 100px;
 }
-.left-section > h2 {
+
+.header-wrapper h2,
+.header-wrapper a {
   color: var(--grey);
+}
+.header-wrapper a {
+  text-decoration: none;
+}
+.header-wrapper a:hover,
+.header-wrapper a:active {
+  color: var(--grey);
+  border-bottom: 1px solid var(--yellow);
 }
